@@ -116,7 +116,6 @@ def numb_islands_dfs(grid: List[List[str]]) -> int:
             # Ниже: строка не должна уйти ниже карты, колонка текущая
             (flood_row + 1 if flood_row < rows_numb - 1 else None, flood_col),
         )
-        # input(f"соседи: {neighbors}")
 
         # Теперь обходим соседей
         for neighbor_row, neighbor_col in neighbors:
