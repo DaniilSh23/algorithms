@@ -16,3 +16,7 @@ while q:
         if next_pos not in visited:
             visited.add(next_pos)
             q.append((next_pos, dist + 1))
+
+"""
+Хз насколько верно иллюстрирует подход код выше, его сгенерила нейронка
+"""
