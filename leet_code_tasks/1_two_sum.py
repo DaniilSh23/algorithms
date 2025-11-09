@@ -2,6 +2,7 @@
 LeetCode задача № 1
 Two Sum
 """
+from os import WCONTINUED
 from typing import List
 
 test_data = (
